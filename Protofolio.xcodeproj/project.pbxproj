@@ -16,6 +16,8 @@
 		AC9CA7AA2548C434001BA12C /* Main.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AC9CA7A82548C434001BA12C /* Main.xcdatamodeld */; };
 		AC9CA7AD2548C6E5001BA12C /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9CA7AC2548C6E5001BA12C /* DataController.swift */; };
 		AC9CA7B72548CE8B001BA12C /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC9CA7B62548CE8B001BA12C /* CloudKit.framework */; };
+		ACCA8694254AEDB2008AC9F0 /* Item-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCA8693254AEDB2008AC9F0 /* Item-CoreDataHelpers.swift */; };
+		ACCA8697254AF81B008AC9F0 /* Project-CoredataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCA8696254AF81B008AC9F0 /* Project-CoredataHelpers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		AC9CA7AC2548C6E5001BA12C /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 		AC9CA7B02548CDF2001BA12C /* Protofolio.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Protofolio.entitlements; sourceTree = "<group>"; };
 		AC9CA7B62548CE8B001BA12C /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		ACCA8693254AEDB2008AC9F0 /* Item-CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item-CoreDataHelpers.swift"; sourceTree = "<group>"; };
+		ACCA8696254AF81B008AC9F0 /* Project-CoredataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project-CoredataHelpers.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +135,8 @@
 			children = (
 				AC9CA7A82548C434001BA12C /* Main.xcdatamodeld */,
 				AC9CA7AC2548C6E5001BA12C /* DataController.swift */,
+				ACCA8693254AEDB2008AC9F0 /* Item-CoreDataHelpers.swift */,
+				ACCA8696254AF81B008AC9F0 /* Project-CoredataHelpers.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -214,10 +220,12 @@
 			files = (
 				AC1182F3254A226100E58FE0 /* ProjectsView.swift in Sources */,
 				AC9CA7AA2548C434001BA12C /* Main.xcdatamodeld in Sources */,
+				ACCA8697254AF81B008AC9F0 /* Project-CoredataHelpers.swift in Sources */,
 				AC9CA7AD2548C6E5001BA12C /* DataController.swift in Sources */,
 				AC9CA79225482332001BA12C /* ContentView.swift in Sources */,
 				AC1182F0254A220C00E58FE0 /* HomeView.swift in Sources */,
 				AC9CA79025482332001BA12C /* ProtofolioApp.swift in Sources */,
+				ACCA8694254AEDB2008AC9F0 /* Item-CoreDataHelpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
